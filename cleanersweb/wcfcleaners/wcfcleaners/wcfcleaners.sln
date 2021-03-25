@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wcfcleaners", "wcfcleaners\wcfcleaners.csproj", "{40AC795A-3238-4D2A-80E8-ED4A8017CC69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wcfcleaners.test", "wcfcleaners.test\wcfcleaners.test.csproj", "{249CC52B-D82C-4C37-B752-B56180DE15D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40AC795A-3238-4D2A-80E8-ED4A8017CC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40AC795A-3238-4D2A-80E8-ED4A8017CC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40AC795A-3238-4D2A-80E8-ED4A8017CC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40AC795A-3238-4D2A-80E8-ED4A8017CC69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249CC52B-D82C-4C37-B752-B56180DE15D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249CC52B-D82C-4C37-B752-B56180DE15D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249CC52B-D82C-4C37-B752-B56180DE15D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249CC52B-D82C-4C37-B752-B56180DE15D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {886F9D07-BE2C-40C5-A8ED-F994AF17A344}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+C:\Users\boris\Desktop\servicecleaners\wcfcleaners\wcfcleaners.test\bin\Debug\netstandard2.0\wcfcleaners.test.deps.json
+C:\Users\boris\Desktop\servicecleaners\wcfcleaners\wcfcleaners.test\bin\Debug\netstandard2.0\wcfcleaners.test.dll
+C:\Users\boris\Desktop\servicecleaners\wcfcleaners\wcfcleaners.test\bin\Debug\netstandard2.0\wcfcleaners.test.pdb
+C:\Users\boris\Desktop\servicecleaners\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.csprojAssemblyReference.cache
+C:\Users\boris\Desktop\servicecleaners\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.csproj.CoreCompileInputs.cache
+C:\Users\boris\Desktop\servicecleaners\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.AssemblyInfoInputs.cache
+C:\Users\boris\Desktop\servicecleaners\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.AssemblyInfo.cs
+C:\Users\boris\Desktop\servicecleaners\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.dll
+C:\Users\boris\Desktop\servicecleaners\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.pdb
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners.test\bin\Debug\netstandard2.0\wcfcleaners.test.deps.json
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners.test\bin\Debug\netstandard2.0\wcfcleaners.test.dll
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners.test\bin\Debug\netstandard2.0\wcfcleaners.test.pdb
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.csprojAssemblyReference.cache
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.AssemblyInfoInputs.cache
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.AssemblyInfo.cs
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.dll
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.pdb
+C:\Users\Nikola\Desktop\26.09.2019\wcfcleaners\wcfcleaners.test\bin\Debug\netstandard2.0\wcfcleaners.test.deps.json
+C:\Users\Nikola\Desktop\26.09.2019\wcfcleaners\wcfcleaners.test\bin\Debug\netstandard2.0\wcfcleaners.test.dll
+C:\Users\Nikola\Desktop\26.09.2019\wcfcleaners\wcfcleaners.test\bin\Debug\netstandard2.0\wcfcleaners.test.pdb
+C:\Users\Nikola\Desktop\26.09.2019\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.csprojAssemblyReference.cache
+C:\Users\Nikola\Desktop\26.09.2019\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\Desktop\26.09.2019\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.AssemblyInfoInputs.cache
+C:\Users\Nikola\Desktop\26.09.2019\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.AssemblyInfo.cs
+C:\Users\Nikola\Desktop\26.09.2019\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.dll
+C:\Users\Nikola\Desktop\26.09.2019\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.pdb
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners\wcfcleaners.test\bin\Debug\netstandard2.0\wcfcleaners.test.deps.json
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners\wcfcleaners.test\bin\Debug\netstandard2.0\wcfcleaners.test.dll
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners\wcfcleaners.test\bin\Debug\netstandard2.0\wcfcleaners.test.pdb
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.AssemblyInfoInputs.cache
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.AssemblyInfo.cs
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.dll
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners\wcfcleaners.test\obj\Debug\netstandard2.0\wcfcleaners.test.pdb

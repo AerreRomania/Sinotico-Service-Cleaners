@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\boris\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_wcfcleaners.1829142748.00" t="ExcludeRecursive" />
+    <e p="C:\Users\boris\Desktop\servicecleaners\wcfcleaners" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="wcfcleaners" t="IncludeRecursive">
+        <e p="App_Data" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Config.cs" t="Include" />
+        <e p="IService1.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Operators.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Service1.svc" t="Include" />
+        <e p="Service1.svc.cs" t="Include" />
+        <e p="wcfcleaners.csproj" t="IncludeRecursive" />
+        <e p="Web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+      </e>
+      <e p="wcfcleaners.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

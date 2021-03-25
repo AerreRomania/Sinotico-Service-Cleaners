@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://192.168.96.14:4885/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://192.168.96.14:4885/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://192.168.96.14:4885/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/MyTestWebService" />
+      <xsd:import schemaLocation="http://192.168.96.14:4885/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetAlarms_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlarms" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAlarms_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlarmsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_LoadAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadAll" />
+  </wsdl:message>
+  <wsdl:message name="IService1_LoadAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetOperatorName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOperatorName" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetOperatorName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOperatorNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetProgressiveNumber_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProgressiveNumber" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetProgressiveNumber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProgressiveNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewOperation_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewOperation" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewOperation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewOperationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateOperation_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperation" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateOperation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetJobId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetJobId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetJobId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetJobIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetTimeStampInMM_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTimeStampInMM" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetTimeStampInMM_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTimeStampInMMResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetShift_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetShift" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetShift_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetShiftResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HasError_InputMessage">
+    <wsdl:part name="parameters" element="tns:HasError" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HasError_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HasErrorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ActivateAlarm_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivateAlarm" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ActivateAlarm_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivateAlarmResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeactivateAlarm_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeactivateAlarm" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeactivateAlarm_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeactivateAlarmResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetAlarms">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAlarms" message="tns:IService1_GetAlarms_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAlarmsResponse" message="tns:IService1_GetAlarms_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadAll">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/LoadAll" message="tns:IService1_LoadAll_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LoadAllResponse" message="tns:IService1_LoadAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOperatorName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetOperatorName" message="tns:IService1_GetOperatorName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetOperatorNameResponse" message="tns:IService1_GetOperatorName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProgressiveNumber">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetProgressiveNumber" message="tns:IService1_GetProgressiveNumber_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetProgressiveNumberResponse" message="tns:IService1_GetProgressiveNumber_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewOperation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertNewOperation" message="tns:IService1_InsertNewOperation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertNewOperationResponse" message="tns:IService1_InsertNewOperation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateOperation" message="tns:IService1_UpdateOperation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateOperationResponse" message="tns:IService1_UpdateOperation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetJobId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetJobId" message="tns:IService1_GetJobId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetJobIdResponse" message="tns:IService1_GetJobId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeStampInMM">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetTimeStampInMM" message="tns:IService1_GetTimeStampInMM_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetTimeStampInMMResponse" message="tns:IService1_GetTimeStampInMM_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetShift">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetShift" message="tns:IService1_GetShift_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetShiftResponse" message="tns:IService1_GetShift_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HasError">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/HasError" message="tns:IService1_HasError_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/HasErrorResponse" message="tns:IService1_HasError_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivateAlarm">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ActivateAlarm" message="tns:IService1_ActivateAlarm_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ActivateAlarmResponse" message="tns:IService1_ActivateAlarm_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeactivateAlarm">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeactivateAlarm" message="tns:IService1_DeactivateAlarm_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeactivateAlarmResponse" message="tns:IService1_DeactivateAlarm_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAlarms">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAlarms" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadAll">
+      <soap:operation soapAction="http://tempuri.org/IService1/LoadAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOperatorName">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetOperatorName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProgressiveNumber">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetProgressiveNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewOperation">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertNewOperation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperation">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateOperation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJobId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetJobId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeStampInMM">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetTimeStampInMM" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetShift">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetShift" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HasError">
+      <soap:operation soapAction="http://tempuri.org/IService1/HasError" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivateAlarm">
+      <soap:operation soapAction="http://tempuri.org/IService1/ActivateAlarm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeactivateAlarm">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeactivateAlarm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://192.168.96.14:4885/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

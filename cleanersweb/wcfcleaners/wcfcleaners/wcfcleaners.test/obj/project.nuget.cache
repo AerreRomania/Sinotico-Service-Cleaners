@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dazDvXbTyzGnkTyzd2OeP4f0oQkC1m4wHzigAWGxflzXtknpxAFfDoRx7F6fSMKPFG2Ry01ElZSGkZ93bHj/OQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tihu\\Desktop\\Cleaners\\FinalCleaners Correct\\cleanersweb\\wcfcleaners\\wcfcleaners\\wcfcleaners.test\\wcfcleaners.test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tihu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Tihu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

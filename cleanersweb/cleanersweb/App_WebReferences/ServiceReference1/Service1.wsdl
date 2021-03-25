@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://192.168.96.14:4887/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://192.168.96.14:4887/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://192.168.96.14:4887/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+      <xsd:import schemaLocation="http://192.168.96.14:4887/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/wcfcleaners" />
+      <xsd:import schemaLocation="http://192.168.96.14:4887/Service1.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://192.168.96.14:4887/Service1.svc?xsd=xsd5" />
+      <xsd:import schemaLocation="http://192.168.96.14:4887/Service1.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/wcfcleaners.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetAlmTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlmTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAlmTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlmTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGeneralTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGeneralTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetGeneralTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGeneralTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetOperatorName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOperatorName" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetOperatorName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOperatorNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetProgressiveNumber_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProgressiveNumber" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetProgressiveNumber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProgressiveNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewOperation_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewOperation" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertNewOperation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertNewOperationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateOperation_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperation" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateOperation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateOperation1_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperation1" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateOperation1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperation1Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateOperation2_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperation2" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateOperation2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperation2Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateOperation3_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperation3" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateOperation3_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperation3Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateOperationManually_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperationManually" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateOperationManually_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateOperationManuallyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetJobId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetJobId" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetJobId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetJobIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetTimeStampInMM_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTimeStampInMM" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetTimeStampInMM_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTimeStampInMMResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetShift_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetShift" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetShift_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetShiftResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HasError_InputMessage">
+    <wsdl:part name="parameters" element="tns:HasError" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HasError_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HasErrorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ActivateAlarm_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivateAlarm" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ActivateAlarm_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivateAlarmResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ActivateAlarmNote_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivateAlarmNote" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ActivateAlarmNote_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivateAlarmNoteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeactivateAlarm_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeactivateAlarm" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeactivateAlarm_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeactivateAlarmResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_MachineTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:MachineTable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_MachineTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MachineTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_LoadMachineInformations_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadMachineInformations" />
+  </wsdl:message>
+  <wsdl:message name="IService1_LoadMachineInformations_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadMachineInformationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertQualityRecord_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertQualityRecord" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertQualityRecord_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertQualityRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetEmailInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmailInfo" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetEmailInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmailInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_StartOperatorsJob_InputMessage">
+    <wsdl:part name="parameters" element="tns:StartOperatorsJob" />
+  </wsdl:message>
+  <wsdl:message name="IService1_StartOperatorsJob_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StartOperatorsJobResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_LoginOperator_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoginOperator" />
+  </wsdl:message>
+  <wsdl:message name="IService1_LoginOperator_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginOperatorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EndOperatorsJob_InputMessage">
+    <wsdl:part name="parameters" element="tns:EndOperatorsJob" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EndOperatorsJob_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EndOperatorsJobResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetLineMachines_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLineMachines" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetLineMachines_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLineMachinesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetAlmTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAlmTable" message="tns:IService1_GetAlmTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAlmTableResponse" message="tns:IService1_GetAlmTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGeneralTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetGeneralTable" message="tns:IService1_GetGeneralTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetGeneralTableResponse" message="tns:IService1_GetGeneralTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOperatorName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetOperatorName" message="tns:IService1_GetOperatorName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetOperatorNameResponse" message="tns:IService1_GetOperatorName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProgressiveNumber">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetProgressiveNumber" message="tns:IService1_GetProgressiveNumber_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetProgressiveNumberResponse" message="tns:IService1_GetProgressiveNumber_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewOperation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertNewOperation" message="tns:IService1_InsertNewOperation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertNewOperationResponse" message="tns:IService1_InsertNewOperation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateOperation" message="tns:IService1_UpdateOperation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateOperationResponse" message="tns:IService1_UpdateOperation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperation1">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateOperation1" message="tns:IService1_UpdateOperation1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateOperation1Response" message="tns:IService1_UpdateOperation1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperation2">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateOperation2" message="tns:IService1_UpdateOperation2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateOperation2Response" message="tns:IService1_UpdateOperation2_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperation3">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateOperation3" message="tns:IService1_UpdateOperation3_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateOperation3Response" message="tns:IService1_UpdateOperation3_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperationManually">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateOperationManually" message="tns:IService1_UpdateOperationManually_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateOperationManuallyResponse" message="tns:IService1_UpdateOperationManually_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetJobId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetJobId" message="tns:IService1_GetJobId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetJobIdResponse" message="tns:IService1_GetJobId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeStampInMM">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetTimeStampInMM" message="tns:IService1_GetTimeStampInMM_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetTimeStampInMMResponse" message="tns:IService1_GetTimeStampInMM_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetShift">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetShift" message="tns:IService1_GetShift_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetShiftResponse" message="tns:IService1_GetShift_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HasError">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/HasError" message="tns:IService1_HasError_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/HasErrorResponse" message="tns:IService1_HasError_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivateAlarm">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ActivateAlarm" message="tns:IService1_ActivateAlarm_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ActivateAlarmResponse" message="tns:IService1_ActivateAlarm_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivateAlarmNote">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ActivateAlarmNote" message="tns:IService1_ActivateAlarmNote_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ActivateAlarmNoteResponse" message="tns:IService1_ActivateAlarmNote_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeactivateAlarm">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeactivateAlarm" message="tns:IService1_DeactivateAlarm_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeactivateAlarmResponse" message="tns:IService1_DeactivateAlarm_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MachineTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/MachineTable" message="tns:IService1_MachineTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/MachineTableResponse" message="tns:IService1_MachineTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadMachineInformations">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/LoadMachineInformations" message="tns:IService1_LoadMachineInformations_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LoadMachineInformationsResponse" message="tns:IService1_LoadMachineInformations_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertQualityRecord">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertQualityRecord" message="tns:IService1_InsertQualityRecord_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertQualityRecordResponse" message="tns:IService1_InsertQualityRecord_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmailInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetEmailInfo" message="tns:IService1_GetEmailInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetEmailInfoResponse" message="tns:IService1_GetEmailInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StartOperatorsJob">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/StartOperatorsJob" message="tns:IService1_StartOperatorsJob_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/StartOperatorsJobResponse" message="tns:IService1_StartOperatorsJob_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginOperator">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/LoginOperator" message="tns:IService1_LoginOperator_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LoginOperatorResponse" message="tns:IService1_LoginOperator_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EndOperatorsJob">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EndOperatorsJob" message="tns:IService1_EndOperatorsJob_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EndOperatorsJobResponse" message="tns:IService1_EndOperatorsJob_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLineMachines">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetLineMachines" message="tns:IService1_GetLineMachines_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetLineMachinesResponse" message="tns:IService1_GetLineMachines_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAlmTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAlmTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGeneralTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetGeneralTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOperatorName">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetOperatorName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProgressiveNumber">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetProgressiveNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertNewOperation">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertNewOperation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperation">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateOperation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperation1">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateOperation1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperation2">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateOperation2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperation3">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateOperation3" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOperationManually">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateOperationManually" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJobId">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetJobId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeStampInMM">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetTimeStampInMM" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetShift">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetShift" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HasError">
+      <soap:operation soapAction="http://tempuri.org/IService1/HasError" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivateAlarm">
+      <soap:operation soapAction="http://tempuri.org/IService1/ActivateAlarm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivateAlarmNote">
+      <soap:operation soapAction="http://tempuri.org/IService1/ActivateAlarmNote" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeactivateAlarm">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeactivateAlarm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MachineTable">
+      <soap:operation soapAction="http://tempuri.org/IService1/MachineTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadMachineInformations">
+      <soap:operation soapAction="http://tempuri.org/IService1/LoadMachineInformations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertQualityRecord">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertQualityRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmailInfo">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetEmailInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartOperatorsJob">
+      <soap:operation soapAction="http://tempuri.org/IService1/StartOperatorsJob" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginOperator">
+      <soap:operation soapAction="http://tempuri.org/IService1/LoginOperator" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EndOperatorsJob">
+      <soap:operation soapAction="http://tempuri.org/IService1/EndOperatorsJob" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLineMachines">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetLineMachines" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://192.168.96.14:4887/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

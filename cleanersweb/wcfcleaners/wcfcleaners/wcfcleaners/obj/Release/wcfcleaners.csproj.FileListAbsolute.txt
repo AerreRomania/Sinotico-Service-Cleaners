@@ -1,0 +1,14 @@
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners\bin\wcfcleaners.dll.config
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners\bin\wcfcleaners.dll
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners\bin\wcfcleaners.pdb
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners\obj\Release\wcfcleaners.csprojAssemblyReference.cache
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners\obj\Release\wcfcleaners.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners\obj\Release\wcfcleaners.dll
+C:\Users\Lenovo T510\Desktop\wcfcleaners\wcfcleaners\obj\Release\wcfcleaners.pdb
+C:\Users\Tihu\Desktop\Cleaners\FinalCleaners Correct\cleanersweb\wcfcleaners\wcfcleaners\wcfcleaners\bin\wcfcleaners.dll.config
+C:\Users\Tihu\Desktop\Cleaners\FinalCleaners Correct\cleanersweb\wcfcleaners\wcfcleaners\wcfcleaners\bin\wcfcleaners.dll
+C:\Users\Tihu\Desktop\Cleaners\FinalCleaners Correct\cleanersweb\wcfcleaners\wcfcleaners\wcfcleaners\bin\wcfcleaners.pdb
+C:\Users\Tihu\Desktop\Cleaners\FinalCleaners Correct\cleanersweb\wcfcleaners\wcfcleaners\wcfcleaners\obj\Release\wcfcleaners.csprojAssemblyReference.cache
+C:\Users\Tihu\Desktop\Cleaners\FinalCleaners Correct\cleanersweb\wcfcleaners\wcfcleaners\wcfcleaners\obj\Release\wcfcleaners.csproj.CoreCompileInputs.cache
+C:\Users\Tihu\Desktop\Cleaners\FinalCleaners Correct\cleanersweb\wcfcleaners\wcfcleaners\wcfcleaners\obj\Release\wcfcleaners.dll
+C:\Users\Tihu\Desktop\Cleaners\FinalCleaners Correct\cleanersweb\wcfcleaners\wcfcleaners\wcfcleaners\obj\Release\wcfcleaners.pdb

@@ -1,0 +1,23 @@
+﻿body {
+    background-color:#bfb047;
+}
+
+#searchSection {
+    /*float:right;
+    margin-right:200px;*/
+    margin-top:20px;
+}
+
+#search {
+    width:100px;
+    height:30px;
+    background-color:darkgray;
+    border-radius:10px;
+    border:2px solid gray;
+    margin-left:30px;
+ 
+}
+
+#table {
+    width:100%;
+}
